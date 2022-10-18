@@ -6,7 +6,7 @@ Author: Josué Morais
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.8
+Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
@@ -40,4 +40,4 @@ Use the key-word variÃ¡vel on your string
 ```python
 ```
 
-# Help us to improve the pt-BR features and create an english translator!
+# Help us to 

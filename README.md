@@ -28,4 +28,4 @@ Use the key-word variável on your string
 ```python
 ```
 
-# Help us to improve the pt-BR features and create an english translator!
+# Help us to 
