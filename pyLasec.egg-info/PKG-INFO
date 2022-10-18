@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyLasec
+Version: 0.0.1
+Summary: Library with resources used by the Control and Automation Engineering course at the Federal University of Uberlândia
+Author: Josué Morais
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyLasec
+Library with resources used by the Control and Automation Engineering course at the Federal University of UberlÃ¢ndia
+
+## Usage:
+### install with pip:
+```shell
+pip install pyLasec
+```
+### Import on your code:
+```python
+from pyLasec import serialGui
+```
+### Run it
+```python
+```
+
+## Collaborate
+#### Create issues, PR's and share the project, it's open-source!!
+
+___
+# How to...
+## Print something
+Use the key-word print on your string
+```python
+```
+## Declare a variable
+Use the key-word variÃ¡vel on your string
+```python
+```
+
+# Help us to improve the pt-BR features and create an english translator!
