@@ -16,7 +16,7 @@ from pyLasec import SerialPlot
 ```
 ### Run it
 ```python
-arduino = SerialPlot(socketPort=4466)
+arduino = SerialPlot(socketPort = 4466, serialPort="COM7", baudrate=9600, bytesize=8, parity=0, stopbits=1, maxSizeWin=9000, timeStep=0.001)
 ```
 
 ## Collaborate
