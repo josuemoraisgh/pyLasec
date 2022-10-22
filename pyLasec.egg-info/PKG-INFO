@@ -2,7 +2,10 @@ Metadata-Version: 2.1
 Name: pyLasec
 Version: 0.0.1
 Summary: Library with resources used by the Control and Automation Engineering course at the Federal University of Uberlândia
+Home-page: UNKNOWN
 Author: Josué Morais
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -41,3 +44,5 @@ Use the key-word variÃ¡vel on your string
 ```
 
 # Help us to 
+
+

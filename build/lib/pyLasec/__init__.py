@@ -1,4 +1,4 @@
 """pyLasce Package"""
 
-from .serial import commSerial, plotSerial, SerialGui
+from .serial import SerialComm, SerialChart, SerialPlot
 
