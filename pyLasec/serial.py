@@ -133,7 +133,7 @@ class SerialPlot():
   buttonStop = widgets.Button(description='Stop:',tooltip='Para a animação do gráfico')
   out = widgets.Output()
 
-  def __init__(self, socketPort = 4466, serialPort="COM7", baudrate=9600, bytesize=8, parity=0, stopbits=1, ip='127.0.0.1',maxSizeWin=9000, timeStep=0.001):
+  def __init__(self, socketPort = 4466, serialPort="COM7", baudrate=9600, bytesize=8, parity=0, stopbits=1, maxSizeWin=9000, timeStep=0.001, ip='127.0.0.1'):
     self.serialPort, self.baudrate, self.bytesize, self.parity, self.stopbits = serialPort, baudrate, bytesize, parity, stopbits
     self.valorSend.observe(self.printSerial, names='value')
     self.sliderPosx.observe(self.sliderChange, names='value')
