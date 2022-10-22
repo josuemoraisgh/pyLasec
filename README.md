@@ -2,6 +2,10 @@
 Library with resources used by the Control and Automation Engineering course at the Federal University of Uberlândia
 
 ## Usage:
+### install on windows:
+```shell
+https://ufubr-my.sharepoint.com/:u:/g/personal/josue_ufu_br/EV_ZhBKmufRPmbVKE5f6VZoB1sw2QWh4JJw-nBxPO18EfA?e=WtMmp0
+```
 ### install with pip:
 ```shell
 pip install git+https://github.com/josuemoraisgh/pyLasec.git
