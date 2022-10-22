@@ -8,10 +8,11 @@ pip install git+https://github.com/josuemoraisgh/pyLasec.git
 ```
 ### Import on your code:
 ```python
-from pyLasec import serialPlot
+from pyLasec import SerialPlot
 ```
 ### Run it
 ```python
+arduino = SerialPlot(socketPort=4466)
 ```
 
 ## Collaborate
