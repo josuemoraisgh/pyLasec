@@ -167,7 +167,7 @@ class SerialPlot():
   def sliderChange(self,b):
     if self.isStop == True or self.run == False:
       self.serialchart.redraw(self.valorSend.value,[],self.sliderPosx.value[0],self.sliderPosx.value[1],self.sliderPosy.value[0],self.sliderPosy.value[1])
-      self.a.value=(self.pltToImg(self.serialplot.fig))
+      self.a.value=(self.pltToImg(self.serialchart.fig))
 
   def printSerial(self,b):
     self.serialcomm.writeSerial(self.valorSend.value)
