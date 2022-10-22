@@ -4,11 +4,11 @@ Library with resources used by the Control and Automation Engineering course at 
 ## Usage:
 ### install with pip:
 ```shell
-pip install pyLasec
+pip install git+https://github.com/josuemoraisgh/pyLasec.git
 ```
 ### Import on your code:
 ```python
-from pyLasec import serialGui
+from pyLasec import serialPlot
 ```
 ### Run it
 ```python
