@@ -17,16 +17,21 @@ License-File: LICENSE
 Library with resources used by the Control and Automation Engineering course at the Federal University of UberlÃ¢ndia
 
 ## Usage:
+### install on windows:
+```shell
+https://ufubr-my.sharepoint.com/:u:/g/personal/josue_ufu_br/EV_ZhBKmufRPmbVKE5f6VZoB1sw2QWh4JJw-nBxPO18EfA?e=WtMmp0
+```
 ### install with pip:
 ```shell
-pip install pyLasec
+pip install git+https://github.com/josuemoraisgh/pyLasec.git
 ```
 ### Import on your code:
 ```python
-from pyLasec import serialGui
+from pyLasec import SerialPlot
 ```
 ### Run it
 ```python
+arduino = SerialPlot(socketPort = 4466, serialPort="COM7", baudrate=9600, bytesize=8, parity=0, stopbits=1, maxSizeWin=9000, timeStep=0.001)
 ```
 
 ## Collaborate
@@ -44,5 +49,6 @@ Use the key-word variÃ¡vel on your string
 ```
 
 # Help us to 
+
 
 
